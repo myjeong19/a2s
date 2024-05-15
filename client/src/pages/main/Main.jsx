@@ -1,7 +1,7 @@
 import React from "react";
-import classes from "./main.module.css";
+import classes from "./css/Main.module.css";
 
-const main = () => {
+const Main = () => {
   return (
     <div className={classes.home}>
       <h1>A2S</h1>
@@ -9,4 +9,4 @@ const main = () => {
   );
 };
 
-export default main;
+export default Main;
