@@ -1,4 +1,4 @@
-import classes from './css/App.module.css';
+import classes from "./css/App.module.css";
 
 function App() {
   return (
@@ -18,8 +18,8 @@ function App() {
         <hr />
 
         <section className={classes.section1}>
-          <div>
-            <div className={classes.main__profile} />
+          <div className={classes.profile__wrap}>
+            <div className={classes.main__profile}></div>
           </div>
 
           <div className={classes.section1__position}>

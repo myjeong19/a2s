@@ -35,13 +35,12 @@
   mix-blend-mode: difference;
 }
 
-.allMenu {
+.menu_wrap {
   background-color: #030001;
   color: #fff;
   position: fixed;
   top: 20px;
   left: 50%;
-  transform: translateX(-50%);
   padding: 97px 0 46px;
   box-sizing: border-box;
   border-radius: 4px;
@@ -49,13 +48,6 @@
   text-align: center;
   width: 260px;
   z-index: 999;
-  overflow: hidden;
-  visibility: hidden;
-  max-height: 0;
-}
-
-.showMenu {
-  animation: slideDown 0.5s ease forwards;
 }
 
 .menu {
@@ -65,13 +57,62 @@
   gap: 20px;
 }
 
-@keyframes slideDown {
-  from {
-    max-height: 0;
-    visibility: hidden;
+.menu li a {
+  position: relative;
+  display: inline-block;
+}
+
+.menu li a:before {
+  content: "";
+  height: 1px;
+  width: 0;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: #fff;
+  transition: all 0.3s ease;
+}
+
+.menu li a:hover:before {
+  width: 100%;
+  background-color: #fff;
+}
+
+@keyframes slide_fade_in_dropdown_animation {
+  0% {
+    opacity: 0;
+    transform: translateY(-100%) translateX(-50%);
   }
-  to {
-    max-height: 300px;
-    visibility: visible;
+  100% {
+    opacity: 1;
+    transform: translateY(0) translateX(-50%);
   }
+}
+
+.slide_fade_in_dropdown {
+  overflow: hidden;
+}
+
+.slide_fade_in_dropdown {
+  animation: slide_fade_in_dropdown_animation 0.5s ease forwards;
+}
+
+/* Fade out */
+@keyframes slide_fade_out_dropdown_animation {
+  0% {
+    opacity: 1;
+    transform: translateY(0) translateX(-50%);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-100%) translateX(-50%);
+  }
+}
+
+.slide_fade_out_dropdown {
+  overflow: hidden;
+}
+
+.slide_fade_out_dropdown {
+  animation: slide_fade_out_dropdown_animation 0.5s ease forwards;
 }
