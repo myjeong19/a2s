@@ -60,6 +60,7 @@
 .menu li a {
   position: relative;
   display: inline-block;
+  color: #fff;
 }
 
 .menu li a:before {
