@@ -28,7 +28,7 @@ const Gnb = () => {
               <a href="/">RESEARCH</a>
             </li>
             <li>
-              <a href="/">CONTACT</a>
+              <a href="/contact">CONTACT</a>
             </li>
           </ul>
         </DropDown>

@@ -4,7 +4,7 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: #030001;
+  color: #282828;
   background-color: #f5f5f5;
 
   font-synthesis: none;
@@ -13,16 +13,23 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+h3,
+a {
+  font-family: "Roboto Mono", monospace !important;
+  font-size: 18px !important;
+  text-decoration: inherit;
+}
+
 ::selection {
   background: #f472b6;
   color: #fff;
 }
 
-a {
+/* a {
   font-weight: 500;
-  color: #fff;
+  color: #030001;
   text-decoration: inherit;
-}
+} */
 
 p {
   font-size: 16px;
