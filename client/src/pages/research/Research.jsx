@@ -1,22 +1,18 @@
-import classes from "./css/Research.module.css";
-import Gnb from "../layouts/Gnb";
-import { Link } from "react-router-dom";
+import classes from './css/Research.module.css';
+import Gnb from '../layouts/Gnb';
+import { Link } from 'react-router-dom';
+import Title from '../../components/ui/title';
 
 const Research = () => {
   return (
     <div className={classes.home}>
-      <h1 className={classes.h1}>A2S LAB</h1>
       <Gnb />
       <div className={classes.gap}></div>
-      <div className={classes.top}>
-        <div className={classes.title}>Research</div>
-        <div className={classes.article}>
-          <p>
-            By fusing our unique AI and XR technology with interacive
-            storytelling,
-          </p>
-        </div>
-      </div>
+      <Title
+        title="Research"
+        description="By fusing our unique AI and XR technology with interacive storytelling,"
+      />
+
       <div className={classes.container}>
         <div className={classes.row}>
           <Link to="/research/1" className={classes.item}>
