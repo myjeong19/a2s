@@ -1,0 +1,92 @@
+.home {
+  box-sizing: border-box;
+  max-width: 1920px;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.h1 {
+  font-size: 24px;
+  font-weight: 700;
+  position: absolute;
+  left: 60px;
+}
+
+.top {
+  display: flex;
+  flex-direction: column;
+  margin-left: max(4.1666666667vw, 32px);
+  margin-right: max(4.1666666667vw, 32px);
+}
+
+.article {
+  display: flex;
+  flex-direction: column;
+}
+
+.article p {
+  font-size: 16px;
+}
+
+.title {
+  font-size: 60px;
+  font-weight: 700;
+  margin-top: max(4.1666666667vw, 32px);
+}
+
+.gap {
+  height: 100px;
+}
+
+.container {
+  display: flex;
+  margin-left: max(4.1666666667vw, 32px);
+  margin-right: max(4.1666666667vw, 32px);
+  margin-top: max(4.1666666667vw, 32px);
+  margin-bottom: max(4.1666666667vw, 32px);
+}
+
+.row {
+  max-width: 1920px;
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: max(4.1666666667vw, 32px);
+}
+
+.item {
+  display: flex;
+  flex-basis: 33.3333333333%;
+  width: 33.3333333333%;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.feature {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.thum {
+  width: 100%;
+  aspect-ratio: 1.77778 / 1;
+  object-fit: cover;
+  background-color: aliceblue;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.blogTitle {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.description {
+  font-size: 14px;
+}

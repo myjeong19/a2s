@@ -13,11 +13,11 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-h3,
-a {
+h3 {
   font-family: "Roboto Mono", monospace !important;
   font-size: 18px !important;
   text-decoration: inherit;
+  color: #030001;
 }
 
 ::selection {
@@ -25,11 +25,11 @@ a {
   color: #fff;
 }
 
-/* a {
+a {
   font-weight: 500;
   color: #030001;
   text-decoration: inherit;
-} */
+}
 
 p {
   font-size: 16px;
@@ -48,7 +48,7 @@ hr {
   border: 1px solid #030001;
 }
 
-body {
+body,
   html,
   body,
   div,
