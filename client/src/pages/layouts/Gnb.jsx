@@ -11,7 +11,8 @@ const Gnb = () => {
   };
 
   return (
-    <>
+    <div className={classes.container}>
+      <h1>A2S LAB</h1>
       <nav className={classes.gnb}>
         <button className={classes.menuContainer} onClick={onClickMenu}>
           {dropdownVisibility ? "CLOSE" : "MENU"}
@@ -25,7 +26,7 @@ const Gnb = () => {
               <a href="/">HOME</a>
             </li>
             <li>
-              <a href="/">RESEARCH</a>
+              <a href="/research">RESEARCH</a>
             </li>
             <li>
               <a href="/contact">CONTACT</a>
@@ -33,7 +34,7 @@ const Gnb = () => {
           </ul>
         </DropDown>
       </nav>
-    </>
+    </div>
   );
 };
 

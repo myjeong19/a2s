@@ -4,7 +4,6 @@ import Gnb from "../layouts/Gnb";
 const Main = () => {
   return (
     <div className={classes.home}>
-      <h1 className={classes.h1}>A2S LAB</h1>
       <Gnb />
       <div className={classes.main}>
         <div className={classes.title}>A2S</div>

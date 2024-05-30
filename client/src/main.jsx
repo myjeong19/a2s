@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import App from "./App.jsx";
 import "./index.css";
 import Main from "./pages/main/Main";
+import Research from "./pages/research/Research";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -11,6 +12,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       <Routes>
         <Route path="/" element={<Main />} />
         <Route path="/contact" element={<App />} />
+        <Route path="/research" element={<Research />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
