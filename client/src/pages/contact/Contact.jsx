@@ -1,6 +1,5 @@
 import classes from './css/Contact.module.css';
-
-import Title from '../../components/ui/title';
+import Title from '../../components/ui/Title';
 import { List } from '../../components/contact';
 import Gnb from '../layouts/Gnb';
 

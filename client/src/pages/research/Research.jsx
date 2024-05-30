@@ -1,7 +1,7 @@
 import classes from './css/Research.module.css';
 import Gnb from '../layouts/Gnb';
 import { Link } from 'react-router-dom';
-import Title from '../../components/ui/title';
+import Title from '../../components/ui/Title';
 
 const Research = () => {
   return (

@@ -13,13 +13,6 @@
   position: relative;
 }
 
-h1 {
-  font-size: 24px;
-  font-weight: 700;
-  position: absolute;
-  left: 60px;
-}
-
 .menuContainer {
   display: flex;
   flex-direction: column;
