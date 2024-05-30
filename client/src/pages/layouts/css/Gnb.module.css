@@ -1,13 +1,22 @@
 .container {
   width: 100%;
   height: 80px;
+  display: flex;
+  align-items: center;
+  padding: max(4.1666666667vw, 32px);
+  box-sizing: border-box;
 }
 
-.h1 {
+.container h1 {
   font-size: 24px;
   font-weight: 700;
-  position: absolute;
-  left: 60px;
+  position: fixed;
+  left: 10%;
+  top: 28px;
+  transform: translateX(-50%);
+  z-index: 9999;
+  mix-blend-mode: difference;
+  color: #fff;
 }
 
 .gnb {

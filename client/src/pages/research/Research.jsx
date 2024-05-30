@@ -5,7 +5,6 @@ import { Link } from "react-router-dom";
 const Research = () => {
   return (
     <div className={classes.home}>
-      <h1 className={classes.h1}>A2S LAB</h1>
       <Gnb />
       <div className={classes.gap}></div>
       <div className={classes.top}>

@@ -1,0 +1,92 @@
+/* 공통 */
+.img__large {
+  aspect-ratio: 1.77778 / 1;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  background-color: #5e5e5e;
+}
+
+.mono__p {
+  font-size: 16px !important;
+  color: #5e5e5e;
+}
+
+.gap {
+  height: 100px;
+}
+
+.gap__small {
+  height: 50px;
+}
+
+hr {
+  border: 1px solid #5e5e5e;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+/* 세부 */
+.detail {
+  margin-left: max(4.1666666667vw, 32px);
+  margin-right: max(4.1666666667vw, 32px);
+}
+
+.section2 {
+  display: flex;
+  flex-direction: column;
+  max-width: 1920px;
+  margin-top: calc(max(4.1666666667vw, 32px) * 2);
+  margin-bottom: calc(max(4.1666666667vw, 32px) * 2);
+}
+
+.section2__container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.section2__title {
+  font-size: 2.5rem;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.section2__title h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  position: relative;
+}
+
+.section2__information {
+  display: flex;
+  margin-left: auto;
+  gap: 50px;
+}
+
+.contant {
+  margin-top: calc(max(4.1666666667vw, 32px) * 2);
+  margin-bottom: calc(max(4.1666666667vw, 32px) * 2);
+  display: flex;
+  flex-direction: column;
+}
+
+.contant__description {
+  width: 100%;
+  height: 100%;
+}
+
+.sub {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sub h3 {
+  max-width: 1000px;
+  margin-left: auto;
+}
