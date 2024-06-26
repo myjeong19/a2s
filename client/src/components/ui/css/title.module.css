@@ -9,6 +9,7 @@
   font-size: 60px;
   font-weight: 700;
   margin-top: max(4.1666666667vw, 32px);
+  margin-left: max(4.1666666667vw, 32px);
 }
 
 .title__paragraph {

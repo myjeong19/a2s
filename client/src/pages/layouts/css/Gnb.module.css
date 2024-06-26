@@ -7,7 +7,7 @@
   box-sizing: border-box;
 }
 
-.container h1 {
+.title {
   font-size: 24px;
   font-weight: 700;
   position: fixed;
