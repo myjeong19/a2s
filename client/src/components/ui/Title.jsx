@@ -1,4 +1,4 @@
-import classes from './css/Title.module.css';
+import classes from "./css/Title.module.css";
 
 export default function Title({ title, description }) {
   return (

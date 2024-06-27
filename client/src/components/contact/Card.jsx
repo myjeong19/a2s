@@ -1,8 +1,15 @@
-import classes from './css/Card.module.css';
+import classes from "./css/Card.module.css";
+import { Link } from "react-router-dom";
 
-export default function Card({ name, position, information, profile_img }) {
+export default function Card({
+  link,
+  name,
+  position,
+  information,
+  profile_img,
+}) {
   return (
-    <li className={classes.li}>
+    <Link to={link} className={classes.li}>
       <img src={profile_img} alt={name} />
       <section className={classes.li__section}>
         <article>
@@ -14,6 +21,6 @@ export default function Card({ name, position, information, profile_img }) {
           <p>{information}</p>
         </div>
       </section>
-    </li>
+    </Link>
   );
 }

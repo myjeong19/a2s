@@ -12,7 +12,9 @@ const Gnb = () => {
 
   return (
     <div className={classes.container}>
-      <h1>A2S LAB</h1>
+      <Link to="/" className={classes.title}>
+        A2S LAB
+      </Link>
       <nav className={classes.gnb}>
         <button className={classes.menuContainer} onClick={onClickMenu}>
           {dropdownVisibility ? "CLOSE" : "MENU"}
