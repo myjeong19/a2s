@@ -28,6 +28,9 @@ const Gnb = () => {
               <a href="/">HOME</a>
             </li>
             <li>
+              <a href="/project">PROJECT</a>
+            </li>
+            <li>
               <a href="/research">RESEARCH</a>
             </li>
             <li>

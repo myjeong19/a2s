@@ -10,6 +10,9 @@ import Hyo from "./pages/contact/Hyo";
 import Jeong from "./pages/contact/Jeong";
 import Min from "./pages/contact/Min";
 import { Contact } from "./pages/contact";
+import { Project } from "./pages/project";
+import { AnimatedTale } from "./pages/project";
+import { SmartParking } from "./pages/project";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -23,6 +26,9 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         <Route path="/contact/hyo" element={<Hyo />} />
         <Route path="/contact/jeong" element={<Jeong />} />
         <Route path="/contact/min" element={<Min />} />
+        <Route path="/project" element={<Project />} />
+        <Route path="/project/animatedTale" element={<AnimatedTale />} />
+        <Route path="/project/smartParking" element={<SmartParking />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

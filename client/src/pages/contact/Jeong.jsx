@@ -24,7 +24,7 @@ export default function Eun() {
             <div className={classes.section1__wrap2}>
               <div className={classes.section1__position}>
                 <h3>Position</h3>
-                <h3 className={classes.mono__p}>AI Developer</h3>
+                <h3 className={classes.mono__p}>AI 엔지니어</h3>
               </div>
 
               <div className={classes.section1__contact}>
@@ -63,42 +63,35 @@ export default function Eun() {
               >
                 <h3>Education</h3>
                 <h3 className={classes.mono__p}>
-                  - 2014.03 - 2022.02 국민대 (학사) 빅데이터경영통계학과
+                  - 국민대 (학사) 빅데이터경영통계학과 (2014.03 - 2022.02)
                 </h3>
                 <h3 className={classes.mono__p}>
-                  - 2022.03 - 2024.02 성균관대 (석사) 인공지능융합학과
+                  - 성균관대 (석사) 인공지능융합학과 (2022.02 - 2024.02)
                 </h3>
               </div>
               <div className={classes.container__box}>
-                <h3>Community</h3>
+                <h3>Career</h3>
                 <h3 className={classes.mono__p}>
-                  - 성균관대학교 Human-AI Interaction 소속 (2023.03~현재)
+                  - 스마일게이트 AI센터 생성AI서비스팀 (2024.01 - 2024.04)
                 </h3>
                 <h3 className={classes.mono__p}>
-                  - 스마일게이트멤버쉽 AI 3기 수료 (2023.07~2023.11)
-                </h3>
-                <h3 className={classes.mono__p}>
-                  - AI 기술 기반 주차 관제 시스템 개발
-                </h3>
-                <h3 className={classes.mono__p}>
-                  - 투빅스(ToBig’s) 빅데이터 연합 동아리 운영진 활동
-                  (2022.07~2023.07)
-                </h3>
-                <h3 className={classes.mono__p}>
-                  - 코드스테이츠 AI 부트캠프 수료 (2021.03 - 2021.09)
-                </h3>
-                <h3 className={classes.mono__p}>
-                  - 구글 머신러닝 부트캠프 수료 (2021.08 - 2021.12)
+                  - 코드스테이츠 AI Bootcamp (2021.10 - 2022.03)
                 </h3>
               </div>
 
               <div className={classes.container__box}>
                 <h3>Experience</h3>
                 <h3 className={classes.mono__p}>
-                  - 코드스테이츠 / 인턴 (2021.10~2022.03)
+                  - 모두의 연구소 AI 그룹 연구원 활동
                 </h3>
                 <h3 className={classes.mono__p}>
-                  - Coaching Assistant of AI/DS Bootcamp
+                  - 빅데이터 연합 동아리 투빅스(ToBig’s) 18기
+                </h3>
+                <h3 className={classes.mono__p}>
+                  - Google Machine Learning Bootcamp 2기 수료
+                </h3>
+                <h3 className={classes.mono__p}>
+                  - 스마일게이트 AI멤버쉽 3기 활동
                 </h3>
               </div>
             </div>
@@ -114,14 +107,11 @@ export default function Eun() {
               <div className={classes.container__box}>
                 <h3>Award</h3>
                 <h3 className={classes.mono__p}>- OPIC IH</h3>
+                <h3 className={classes.mono__p}>- 빅데이터 분석기사</h3>
+                <h3 className={classes.mono__p}>- ADSP</h3>
                 <h3 className={classes.mono__p}>
-                  - SK mySUNI Creative Challenge 2022 / 장려상 / SK (2023.02)
-                </h3>
-                <h3 className={classes.mono__p}>
-                  - 빅데이터 분석기사 / 한국데이터산업진흥원 (2021.07)
-                </h3>
-                <h3 className={classes.mono__p}>
-                  - ADSP / 한국데이터산업진흥원 (2017.12)
+                  - SK Creative Challenge 2022 : 메타버스 UX 서비스 기획 (본선
+                  발표 부문 장려상)
                 </h3>
               </div>
             </div>
